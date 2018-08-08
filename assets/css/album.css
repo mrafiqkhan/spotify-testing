@@ -1,0 +1,50 @@
+#gridViewContainer .album {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 100%;
+  padding: 3% 10%;
+  /* border: 2px solid #fff; */
+}
+
+#gridViewContainer .albumHeader {
+  width: 220px;
+  height: 220px;
+}
+
+#gridViewContainer .albumFooter {
+  margin-left: 20px;
+  font-size: .9rem;
+}
+
+#gridViewContainer .albumFooter p {
+  margin: 2px;
+  color: #777;
+}
+
+#gridViewContainer .albumFooter p.albumTitle {
+  font-style: italic;
+}
+
+#gridViewContainer .album img {
+  width: 100%;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.albumListPlayIcon img {
+  width: 15%;
+  height: 15%;
+  vertical-align: middle;
+  margin-right: 25px;
+}
+
+#gridViewContainer .artistName {
+  font-style: italic;
+  color: #777;
+  font-size: .8rem;
+}
